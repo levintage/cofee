@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" href="normalize.css" as="normalize.css"> 
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Handjet&family=Open+Sans:ital@1&family=PT+Sans:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+<link rel="preload" href="style.css" as="style.css"> 
+<link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+
+     <div class="contenedor">
+      <div class="barra">
+        <a class="logo" href="index.html">
+        <h1 class="logo__nombre  centrar-texto">Blog <span class="logo__bold">De café</span></h1>
+       </a>
+        <nav class="navegacion">
+            <a href="index.html" class="navegacion__enlace">Nosotros</a>
+            <a href="cursos.html" class="navegacion__enlace">cursos</a>
+            <a href="contacto.html" class="navegacion__enlace">contacto</a>
+        </nav>
+     </div> 
+    </div> 
+    
+    <div class="header__texto">
+      <h2>Blog de café consejos y cursos</h2>
+      <p>aprende de los expertos con las mejores recetas y consejos</p>  
+    </div>
+    </header>
+
+    <main class="contenedor">
+      <h2 class="centrar-texto">Contacto</h2>
+ 
+    <div class="contacto-bg"></div>
+            
+     <form class="formulario">
+        <div class="campo">
+            <label class="campo__label" for="nombre">nombre</label>
+            <input class="campo__field" type="text" placeholder="Tu Nombre" id="nombre">
+        </div>
+
+        <div class="campo">
+            <label class="campo__label" for="email">E-mail</label>
+            <input class="campo__field" type="text" placeholder="Tu E-mai" id="email">
+        </div>
+
+        <div class="campo">
+            <label class="campo__label" for="mensaje">Mensaje</label>
+            <textarea class="campo__field campo__field--textarea" id="mensaje"></textarea>
+        </div>
+         
+        <div>
+            <input type="submit" class="boton boton--primario">
+        </div>
+     </form>
+    </main>
+
+   
+    <footer class="footer">
+      <div class="contenedor">
+        <div class="barra">
+          <a class="logo" href="index.html">
+          <h1 class="logo__nombre centrar-texto">Blog <span class="logo__bold">De café</span></h1>
+         </a>
+          <nav class="navegacion">
+              <a href="index.html" class="navegacion__enlace">Nosotros</a>
+              <a href="cursos.html" class="navegacion__enlace">cursos</a>
+              <a href="contacto.html" class="navegacion__enlace">contacto</a>
+          </nav>
+       </div> 
+     </div> 
+    </footer>
+</body>
+</html>
